@@ -1,6 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.4rem;
 }
+
 header {
   background-color: #222f3f;
 }
@@ -10,14 +12,35 @@ header img {
   padding: 2px;
 }
 
-a {
-  list-style: none;
+h1 > a {
+  color: white;
+  text-decoration: none;
 }
+
 nav {
   background-color: #364759;
 }
+nav > h1 {
+  display: contents;
+}
 
-.back-one {
-    background-image: )
+.text-center {
+  text-align: center;
+}
 
+#orange-one {
+  background-color: #f56600;
+}
+
+.forimg {
+  height: 100px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+#orange-one {
+  color: white;
+  background-color: #f56600;
+  width: 90%;
+  margin: auto;
 }
