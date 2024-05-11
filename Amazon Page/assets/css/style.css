@@ -1,15 +1,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.4rem;
+  background-color: #e9edee;
 }
 
 header {
   background-color: #222f3f;
+  padding-left: 8px;
 }
 
 header img {
-  height: 20px;
-  padding: 2px;
+  height: 15px;
+  padding: 2px 0px;
 }
 
 h1 > a {
@@ -19,28 +21,113 @@ h1 > a {
 
 nav {
   background-color: #364759;
+  font-size: smaller;
+  padding-left: 8px;
 }
-nav > h1 {
-  display: contents;
+
+ul > li {
+  display: inline-block;
+  padding: 3px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
 .text-center {
   text-align: center;
 }
 
-#orange-one {
-  background-color: #f56600;
-}
-
-.forimg {
-  height: 100px;
-  width: 90px;
-  border-radius: 5px;
+.fourimg {
+  height: 130px;
+  width: 110px;
+  border-radius: 16px;
+  margin: 5px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 #orange-one {
   color: white;
   background-color: #f56600;
-  width: 90%;
-  margin: auto;
+  width: 92%;
+  margin: 10px auto 0 auto;
+  padding: 3px 0;
+  font-size: smaller;
+}
+
+#backg_div {
+  background-image: url("../images/bg-image.png");
+  background-size: contain;
+  color: white;
+  width: 92%;
+  margin: 10px auto 0 auto;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+#backg_div h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0 0 10px;
+}
+
+#backg_div p {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+#img_sec {
+  background-color: #ffffff;
+  width: 92%;
+  margin: 10px auto 0 auto;
+}
+#img_sec h6 {
+  padding: 5px 0 0 5px;
+}
+
+#img_sec a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #0d5259;
+  padding: 5px;
+}
+
+.last_sec a {
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #0d5259;
+  padding: 5px;
+}
+
+.last_sec {
+  width: 92%;
+  margin: 10px auto 0 auto;
+  text-align: center;
+}
+
+.last_sec img {
+  height: auto;
+  width: 100%;
+}
+
+#footd1 {
+  background-color: #364759;
+  text-align: center;
+  margin-top: 10px;
+  padding: 3px 0;
+}
+#footd1 a {
+  color: white;
+}
+
+#footd2 {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+#footd2 img {
+  height: 20px;
+  padding: 20px;
 }
